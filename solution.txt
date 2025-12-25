@@ -1,2 +1,16 @@
 Please add your pseudocode to this file
 And a written explanation of your solution
+            Pseudocode
+Initialize and empty string called result to store substrings
+Outer loop iterates from index 0 to the end of the string
+Inner loop iterates from one position after the start index to the end of string
+Exract the substring using string.slice(i,j) and push it to the result array
+After both loops complete, return the result array containing all consecutive substrings.
+
+
+            solution
+This solution generates all consecutive substrings of a given input string.
+It uses two nested loops: the outer loop which selects the starting index of the substring,
+ and the inner loop which selects the ending index, expanding the substring from the starting position.
+Each substring is extracted using the slice method and stored in a result array,
+ which is returned at the end.
